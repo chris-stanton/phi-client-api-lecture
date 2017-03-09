@@ -1,18 +1,18 @@
-myApp.controller('HomeController', ['$http', function($http) {
+myApp.controller('CatController', ['$http', function($http) {
   console.log('home controller running');
 
   var self = this;
   self.pet = {};
   self.message = "Welcome to the Home View";
 
-  var api_key = "";
+  var api_key = "dde1e010ef8fa6bb51db6661ada51714";
   var baseURL = "http://api.petfinder.com/";
 
   self.getRandomPet = function() {
     // create a URL
     var query = baseURL + "pet.getRandom";
     query += "?key=" + api_key;
-    query += "&animal=dog";
+    query += "&animal=cat";
     query += "&output=basic";
     query += "&format=json";
 

@@ -1,0 +1,13 @@
+<h1>Pig View</h1>
+
+<p>{{pc.message}}</p>
+
+<button ng-click="pc.getRandomPet()">Get Random Pet</button>
+
+<div class="row">
+  <div class="col-md-12">
+      <!-- hc.pet = response.data.petfinder.pet -->
+    <h2>{{pc.pet.name.$t}}</h2>
+    <p>{{pc.pet.description.$t}}</p>
+  </div>
+</div>
