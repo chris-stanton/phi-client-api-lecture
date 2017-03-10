@@ -16,8 +16,8 @@ Consult the PetFinder API documentation to see all the options available for the
 Display
 Display information about the pet on the DOM, formatted nicely with Bootstrap, Skeleton, or your own styles.
 
-HARD MODE
-Include images of the pet in the display. Note that images are available in three sizes. Only one of any image need be displayed. You'll need to use theng-src directive in your  element to get this to display.
+HARD MODE:
+Include images of the pet in the display. Note that images are available in three sizes. Only one of any image need be displayed. You'll need to use the ng-src directive in your  element to get this to display.
 
-PRO MODE
+PRO MODE:
 Make a new route/view for listing Shelters. Use the API Documentation to see what information is available on shelters and make use of them.
