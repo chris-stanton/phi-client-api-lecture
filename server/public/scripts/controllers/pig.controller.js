@@ -1,9 +1,9 @@
 myApp.controller('PigController', ['$http', function($http) {
-  console.log('home controller running');
+  console.log('Pig controller running');
 
   var self = this;
   self.pet = {};
-  self.message = "Welcome to the Home View";
+  self.message = "Welcome to the Pig View";
 
   var api_key = "dde1e010ef8fa6bb51db6661ada51714";
   var baseURL = "http://api.petfinder.com/";

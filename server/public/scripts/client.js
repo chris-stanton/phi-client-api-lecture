@@ -18,6 +18,11 @@ myApp.config(['$routeProvider', function($routeProvider) {
             controller: 'PigController',
             controllerAs: 'pc'
         })
+        .when('/reptile', {
+            templateUrl: '/views/templates/reptile.html',
+            controller: 'ReptileController',
+            controllerAs: 'rc'
+        })
         .otherwise({
             redirectTo: 'cat'
         });

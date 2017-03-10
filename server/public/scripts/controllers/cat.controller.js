@@ -1,9 +1,9 @@
 myApp.controller('CatController', ['$http', function($http) {
-  console.log('home controller running');
+  console.log('Cat controller running');
 
   var self = this;
   self.pet = {};
-  self.message = "Welcome to the Home View";
+  self.message = "Welcome to the Cat View";
 
   var api_key = "dde1e010ef8fa6bb51db6661ada51714";
   var baseURL = "http://api.petfinder.com/";
@@ -20,7 +20,7 @@ myApp.controller('CatController', ['$http', function($http) {
 
     // encode that URL
     var request = query + "&callback=JSON_CALLBACK";
-    console.log(request);
+    console.log("request: ", request);
 
     // make ajax request
     $http.jsonp(request).then(function(response) {
